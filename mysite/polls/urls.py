@@ -1,7 +1,7 @@
-from django.conf.urls import url
+from django.conf.urls import path
 from polls.views import dashboard
 
 
 urlpatterns = [
-    url(r"^dashboard/",dashboard, name='dashboard'),
+    path(r"^dashboard/",dashboard, name='dashboard'),
 ]
